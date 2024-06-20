@@ -1,0 +1,281 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    body{
+        
+        ol{
+            li{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                }
+            }
+        }
+        main{
+
+            h1{
+                color: black;
+                text-shadow: 
+                -1px -1px 0 black,  
+                1px -1px 0 black,
+                -1px  1px 0 black,
+                1px  1px 0 black; /* Sombra para crear el borde */
+                }
+
+        }
+        
+        footer{
+            /* font-size: 9rem!important; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #BF827B; 
+            text-align: center;
+            height: 30vh;
+            p {
+                font-size: 1.5rem;
+            }
+            nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+        
+            }
+
+        }
+    
+
+        nav svg{
+            width: 40px !important;
+            height: 40px !important;
+            margin: 1rem;
+        }
+        form{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            label{
+                font-size: 1rem;
+            }
+            label{
+                font-size: 1.245rem;
+            }
+        }
+    
+    
+    aside{
+            div{
+                border: 5px solid black;
+                border-radius: 10px;
+                margin: 1rem;
+                padding: 1rem;
+                background-image: radial-gradient(circle, #003366, #00cc66);
+                color: black;
+            }
+    }
+        h1{
+        
+            font-family: "PT Serif", serif;
+            font-size: 2rem;
+            font-weight: 700;
+            font-style: italic;
+            text-align: center;
+            strong{
+                padding: 1rem;
+            }
+        }
+        h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.5rem;
+            color:#BF827B; 
+            text-align: center;
+        
+        }
+    div{
+
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            align-items: center;
+            font-size: 1.125rem;
+        
+        }
+    }
+        p{
+            margin: 0;
+            text-align: justify;
+            font-family: "PT Serif", serif;
+            font-size: 1rem;
+            font-weight: 400;
+            font-style: normal;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        strong{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            font-family: "PT Serif", serif;
+            font-size: 2rem;
+            font-weight: 700;
+            font-style: italic;
+            text-align: center;
+        }
+
+    
+        section{
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            padding: 1rem;
+            img{
+        
+                width: 91vw;
+            }
+            
+        }
+    
+
+        .wrapper{
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%;
+        
+        
+        }
+        
+        .wrapper iframe {
+            position: absolute;
+            top: 0;
+            left:0;
+            width: 100%;
+            height: 100%;
+        }
+        .container{
+            display: grid;
+            grid-template-rows: repeat(6,1fr);
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .items{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+    
+        .principal {
+            
+            padding: 0rem;
+            margin: 0rem;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+
+            background-image: url(../assets/learneng320x87.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+
+            height: 40vh;
+        
+        }
+        .parallax1{
+            background-image: url("../assets/contact-us-4193637_1280.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+
+            height: 40vh;
+        
+        
+        }
+        .principalStories{
+            background-image: url("../assets/child-learning-english-stories320x215.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            height: 30vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .sectionStoriesArticle{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        }
+    
+        .fomrContUs-container{
+
+            padding-top: 1 rem;
+            margin-top: 3 rem;
+            border: 2px solid black;
+
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+        }
+    
+        .mainSection{
+            padding: 0.625rem;
+        
+        }
+    
+        .grammarMain{
+
+            background-image: url("../assets/grammarA.jpg");
+            background-attachment: scroll;
+            height: 40vh;
+
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .fomrContUs-container{
+            padding: 3 rem;
+            margin: 3 rem;
+            border: 2px solid black;
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+        
+        }
+    
+    
+        .form-test-PS{
+            border: 0.1rem solid blue;
+            background-color: aqua;
+            
+            padding: 0.5rem;
+            margin: 1rem;
+        }
+        .form-test-PAS{
+            border: 0.1rem solid blue;
+            background-color: aquamarine;
+            padding: 0.5rem;
+            margin: 1rem;
+        }
+
+    }
+}
