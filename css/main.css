@@ -11,6 +11,9 @@ html {
   height: 100vh;
   font-size: 16px;
 }
+html a {
+  text-decoration: none;
+}
 html header {
   background-color: #BF827B;
   width: 100%;
